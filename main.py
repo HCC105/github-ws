@@ -7,6 +7,9 @@ def multiply(a: int, b: int) -> int:
 def devide(a: int, b: int) -> int:
     return a/b
 
+def minus(a: int, b: int) -> int:
+    return a -b 
+
 if __name__ == "__main__":
     print("Please input the calculation you want: ")
     mode = input()
